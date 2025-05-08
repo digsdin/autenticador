@@ -1,0 +1,39 @@
+programa {
+  funcao inicio() {
+    /*VARIAVEIS DEFINIDAS COMO LETRAS*/
+    cadeia valor1, valor2, espaco, teste, comparacao
+
+    /*VARIAVEL DEFINIDA COMO ALGO LÓGICO = VERDADEIRO OU FALSO*/
+    logico verifica = verdadeiro
+
+    /*ATRIBUIÇÃO DE MEMORIA A VARIAVEL DE CADEIA COMPARACAO*/
+    comparacao = "Diego Lima"
+
+    /*VARIAVEL DE CARACTERE ESPECIAL JA ATRIBUIDADE COM A MEMORIA*/
+    caracter letra = 'x'
+    /*FUNÇÃO DE COMANDO DE SAIDA ESCREVER NA TELA AS INFORMAÇÕES, TANTO TEXTO QUANTO VARIAVEIS ATRIBUIDAS DENTRO DA FUNÇÃO*/
+    escreva(letra, letra, letra, espaco," Facebook ",espaco, letra, letra, letra,"\n")
+
+    /*VARIAVEL DE CARACTERE COM MEMORIA ATRIBUIDA DE UM ESPAÇO*/
+    espaco = " "
+
+    /*COMANDOS DE ENTRADA E SAIDA QUE IRÁ DEIXAR O USUARIO LER E ESCREVER SUAS INFORMAÇÕES*/
+    escreva("Digite seu nome: \n")
+    leia(valor1, valor2)
+
+    /*ATRIBUIÇÃO DE MEMORIA NA VARIAVEL DO TIPO CADEIA, USANDO UMA EQUAÇÃO MATEMATICA DE SOMA, USANDO OUTRAS VARIAVEIS*/
+    teste = valor1 + espaco + valor2
+
+    /*CONDIÇÃO LOGICA PARA DEFINIR SE O USUARIO DIGITOU A INFORMAÇÃO CORRETA NA FUNÇÃO LEIA (USANDO DOIS SINAIS DE = PARA DEFINIR QUE É EXATAMENTE IGUAL OS VALORES DAS VARIAVEIS*/
+    se(verifica == (teste == comparacao)){
+      escreva("Muito bom! coincide!\n")
+    }
+
+    /*CONDIÇÃO LÓGICA PARA DIZER QUE O VALOR DAS VARIAVEIS NÃO ESTÃO DE ACORDO, NÃO SÃO IGUAIS*/
+    senao{
+      escreva("Errrrrrrrou Digite novamente. \n")
+    }
+
+
+  }
+}
