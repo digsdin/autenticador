@@ -1,0 +1,28 @@
+programa {
+  funcao inicio() {
+
+    cadeia email, email2
+
+    escreva("Digite seu email: \n")
+    leia(email)
+
+    escreva("Confirme seu email: \n")
+    leia(email2)
+
+    enquanto(email != email2){
+      escreva("Email incorreto digite novamente\n")
+      leia(email2)
+    }
+    
+
+    se(email != email2){
+      escreva("Email incorreto")
+    }
+    
+    senao{
+      escreva("Parabens login realizado!")
+    }
+
+    
+  }
+}
